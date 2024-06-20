@@ -168,45 +168,6 @@
 }
 
 
-@media screen and (max-width: 475px){
-    #content, footer {
-        height: 20vh;
-    }
-    #profile {
-        height: 140vh;
-        margin-bottom: 400px;
-    }
-    .profile-pic{
-        height: 420px;
-    }
-    #about{
-        height: 100vh;
-        margin: 50px;
-        margin-left: 0px;
-        margin-bottom: 600px;
-        width: 2px;
-    }
-    #experience{
-        height: 180vh;
-        margin: 5rem;
-        margin-bottom: 500px;
-        margin-left: 7rem;
-    }
-    #projects{
-        height: 130vh;
-        margin: 5rem;
-        margin-bottom: 400px;
-        margin-left: 7rem;
-    }
-    #contact{
-        margin: 4rem;
-    }
-
-    footer{
-        margin: 7rem;
-    }
-}
-
 @keyframes cursor{ 
     to {
         border-left: 2px solid gray;
