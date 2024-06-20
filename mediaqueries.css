@@ -1,0 +1,235 @@
+@media screen and (max-width: 1400px) {
+    #profile {
+      height: 83vh;
+      margin-bottom: 6rem;
+    }
+    .about-containers {
+      flex-wrap: wrap;
+    }
+    #contact,
+    #projects {
+      height: fit-content;
+    }
+  }
+
+@media screen and (max-width: 1280px){
+    #desktop-nav{
+        display: none;
+    }
+    #hamburger-nav{
+        display: flex;
+    }
+    #profile{
+        height: 950px;
+    }
+    .profile-pic{
+        margin-left: 5rem;
+    }
+    #about{
+      margin: 150px;
+        margin-bottom: 250px;
+    }
+    #experience{
+        margin-bottom: 250px;
+    }
+    #experience, .experience-details-container{
+        margin-top:2rem ;
+    }
+    #profile,.section-container{
+        display: block;
+        margin: 0px;
+    }
+
+    #contact{
+        margin: 70px;
+    }
+    .title{
+        margin-bottom: 1rem;
+    }
+    .arrow {
+        display: none;
+    }
+    section, .section-container {
+        min-width: fit-content;
+    }
+    .section {
+        margin: 0 5%;
+    }
+    .section__pic-container{
+        width: 275px;
+        height: 275px;
+        margin: 0 auto 2rem;
+    }
+    .about-containers{
+        margin-top: 0;
+    }
+}
+
+@media screen and (max-height: 700px){
+    #content, footer {
+        height: 20vh;
+    }
+    #about{
+        height: 150vh;
+        margin: 4rem;
+    }
+    #experience{
+        height: 180vh;
+        margin: 5rem;
+        margin-left: 7rem;
+    }
+    #projects{
+        height: 130vh;
+        margin: 5rem;
+        margin-left: 7rem;
+    }
+    #contact{
+        margin: 2rem;
+    }
+}
+
+
+
+
+@media screen and (max-width: 640px){
+    #content, footer {
+        height: 20vh;
+    }
+    #profile {
+        height: 100vh;
+        margin: 0px;
+    }
+    .profile-pic{
+        height: 420px;
+    }
+    #about{
+        height: 120vh;
+        margin: 70px;
+        width: 2px;
+    }
+    #experience{
+        height: 160vh;
+        margin: 5rem;
+        margin-left: 7rem;
+    }
+    #projects{
+        height: 130vh;
+        margin: 5rem;
+        margin-left: 7rem;
+    }
+    #contact{
+        margin: 3rem;
+        margin-left: 5rem;
+    }
+
+    footer{
+        margin: 7rem;
+    }
+
+    article{
+        font-size: 1rem;
+    }
+    footer nav {
+        height: fit-content;
+        margin-bottom: 2rem;
+    }
+    .about-containers,
+    .contact-info-upper-container, 
+    .btn-container {
+        flex-wrap: wrap;
+    }
+    .contact-info-container {
+        margin: 0;
+    }
+    .contact-info-container p, .nav-links li a {
+        font-size: 1rem;
+    }
+    .experience-sub-title {
+        font-size: 1.25rem;
+    }
+    .logo{
+        font-size: 1.5rem;
+    }
+    .section__pic-container{
+        width: auto;
+        height: 42vh;
+        justify-content: center;
+    }
+    .section__text__p2 {
+        font-size: 1.25rem;
+    }
+    .title {
+        font-size: 2rem;
+        margin-bottom: 2rem;
+    }
+    .text-container {
+        text-align: justify;
+    }
+}
+
+
+@media screen and (max-width: 475px){
+    #content, footer {
+        height: 20vh;
+    }
+    #profile {
+        height: 140vh;
+        margin-bottom: 400px;
+    }
+    .profile-pic{
+        height: 420px;
+    }
+    #about{
+        height: 100vh;
+        margin: 50px;
+        margin-left: 0px;
+        margin-bottom: 600px;
+        width: 2px;
+    }
+    #experience{
+        height: 180vh;
+        margin: 5rem;
+        margin-bottom: 500px;
+        margin-left: 7rem;
+    }
+    #projects{
+        height: 130vh;
+        margin: 5rem;
+        margin-bottom: 400px;
+        margin-left: 7rem;
+    }
+    #contact{
+        margin: 4rem;
+    }
+
+    footer{
+        margin: 7rem;
+    }
+}
+
+@keyframes cursor{ 
+    to {
+        border-left: 2px solid gray;
+    }
+}
+@keyframes words {
+    0%,40%{
+        content: "Web Developer";
+    }
+    41%,80%{
+        content: "Java Developer";
+    }
+    81%,100%{
+        content: "Full-Stack Developer";
+    }
+}
+
+@keyframes typing{
+    10%,15%,30%,35%,50%,55%,70%,75%,90%,95%{
+        width: 0;
+    }
+    5%,20%,25%,40%,45%,60%,65%,80%,85%{
+        width: calc(100% + 8px);
+    }
+}
+
